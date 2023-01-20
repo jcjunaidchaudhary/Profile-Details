@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0px;
+}
+#home{
+    border-radius: 10px;
+    width: 100vw;
+    height: 50vh;
+    background: red;
+    position: relative;
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.box_img{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -68px;
+    left: 100px;
+    overflow: hidden;
+}
+#icon{
+    width: 100vw;
+    height: 100px;
+    background: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+.icon_box{
+    width: 50px;
+    height: 50px;
+    background: blue;
+}
+#info{
+    width: 100vw;
+    height:32vh;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
